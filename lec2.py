@@ -44,7 +44,8 @@ except:
 """
 
 #dictionaries
-student = {}
+student = {
+}
 student["name"]= "Bhumika"
 student["name"]= "Anish"
 print(student["name"])
@@ -58,3 +59,22 @@ for key in student:
 
 for value in student.values():
     print(value)
+
+
+dataset = {
+    "age":[20,21,22],
+    "marks":[90,80,70],
+    "passed":[True,False,True],
+
+    }
+
+book = {
+    "title":"anish is a retard",
+    "author":"Bhumika",
+    "price":0,
+
+}
+
+book["price"]= "20"
+
+print(book["price"])
